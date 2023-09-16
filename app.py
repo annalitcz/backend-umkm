@@ -1,24 +1,12 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
+import json
 
 app = Flask(__name__)
 CORS(app)
 
-products = [
-    {
-        "nama": "Kaos",
-        "gambar": "https://img.freepik.com/free-psd/isolated-pack-black-tshirts-front-view_125540-2240.jpg",
-        "deskripsi": "Deskripsi Produk 2",
-        "harga": "52.000"
-    },
-    {
-        "nama": "Kaos",
-        "gambar": "https://img.freepik.com/free-psd/isolated-pack-black-tshirts-front-view_125540-2240.jpg",
-        "deskripsi": "Deskripsi Produk 2",
-        "harga": "52.000",
-    }
-    # Tambahkan produk lainnya...
-]
+with open('data.json', 'r') as file:
+    products = json.load(file)
 
 @app.route('/')
 def home():
