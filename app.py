@@ -9,13 +9,13 @@ products = [
         "nama": "Kaos",
         "gambar": "https://img.freepik.com/free-psd/isolated-pack-black-tshirts-front-view_125540-2240.jpg",
         "deskripsi": "Deskripsi Produk 2",
-        "harga": 52.000
+        "harga": "52.000"
     },
     {
         "nama": "Kaos",
         "gambar": "https://img.freepik.com/free-psd/isolated-pack-black-tshirts-front-view_125540-2240.jpg",
         "deskripsi": "Deskripsi Produk 2",
-        "harga": 52.000
+        "harga": "52.000",
     }
     # Tambahkan produk lainnya...
 ]
