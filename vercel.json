@@ -15,10 +15,6 @@
         "src": "/api/products/search",
         "dest": "/app.py",
         "methods": ["GET"]
-      },
-      {
-        "src": "/assets/(.*)",
-        "dest": "/assets/$1"
       }
     ],
     "env": {
