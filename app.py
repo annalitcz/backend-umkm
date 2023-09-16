@@ -6,23 +6,17 @@ CORS(app)
 
 products = [
     {
-        "nama": "Produk 3",
-        "gambar": "/assets/image_2023-08-06_23-20-36.png",
-        "deskripsi": "Deskripsi Produk 3",
-        "harga": 50.0
-    },
-    {
-        "nama": "Produk 1",
-        "gambar": "/assets/image_2023-08-06_23-20-36.png",
-        "deskripsi": "Deskripsi Produk 1",
-        "harga": 100.0
-    },
-    {
-        "nama": "Produk 2",
-        "gambar": "/assets/image_2023-08-06_23-20-36.png",
+        "nama": "Kaos",
+        "gambar": "https://img.freepik.com/free-psd/isolated-pack-black-tshirts-front-view_125540-2240.jpg",
         "deskripsi": "Deskripsi Produk 2",
-        "harga": 150.0
+        "harga": 52.000
     },
+    {
+        "nama": "Kaos",
+        "gambar": "https://img.freepik.com/free-psd/isolated-pack-black-tshirts-front-view_125540-2240.jpg",
+        "deskripsi": "Deskripsi Produk 2",
+        "harga": 52.000
+    }
     # Tambahkan produk lainnya...
 ]
 
