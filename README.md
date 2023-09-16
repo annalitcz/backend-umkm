@@ -80,4 +80,4 @@ python app.py
 
 ## Support me
 
-<button name="button" style="width:150px; background: red; color: white; padding: 5px; border-radius: 5px; font-weight: bold" onclick='https://saweria.co/AnzzID'>Saweria</button>
+[saweria]('https://saweria.co/AnzzID')
