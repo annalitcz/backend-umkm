@@ -1,15 +1,29 @@
 # Welcome to Backend UMKM
 
-API ini berisi list produk dan search produk
+![iconku](src/icon.jpeg)
+
+API ini berisi list produk dan search produk, kalo ingin tambah fitur ya koding sendiri.
 
 ## Installation
 
 Run the following command to clone the repository, and install the dependencies.
 
+- clone repository
+
 ```sh
 git clone https://github.com/annalitcz/backend-umkm
+```
+
+- open the folder
+  
+```sh
 cd backend-umkm
-pip install -r requirement.txt
+```
+
+- install library
+  
+```sh
+pip install -r requirements.txt
 ```
 
 start the server
@@ -59,6 +73,12 @@ python app.py
 
   ```link
   /api/products/search?query=produk%201
+  ```
+
+  __OR__
+
+  ```link
+  /api/products/search?query={query}
   ```
 
   Data:
