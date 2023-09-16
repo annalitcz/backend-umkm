@@ -15,6 +15,10 @@
         "src": "/api/products/search",
         "dest": "/app.py",
         "methods": ["GET"]
+      },
+      {
+        "src": "/products",
+        "dest": "/product.json"
       }
     ],
     "env": {
