@@ -80,4 +80,5 @@ python app.py
 
 ## Support me
 
-[saweria]('https://saweria.co/AnzzID')
+<a href="https://saweria.co/AnzzID" style="background-color: #0074D9; color: #FFFFFF; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Saweria</a>
+
