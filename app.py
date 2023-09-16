@@ -5,8 +5,20 @@ import json
 app = Flask(__name__)
 CORS(app)
 
-with open('data.json', 'r') as file:
-    products = json.load(file)
+products = [
+    {
+      "nama": "Kaos 1",
+      "gambar": "https://i.pinimg.com/564x/04/fb/a7/04fba7a1528396853a30f6217a71d8c9.jpg",
+      "deskripsi": "Deskripsi Produk 2",
+      "harga": "52.000"
+    },
+    {
+      "nama": "Kaos",
+      "gambar": "https://img.freepik.com/free-psd/isolated-pack-black-tshirts-front-view_125540-2240.jpg",
+      "deskripsi": "Deskripsi Produk 2",
+      "harga": "52.000"
+    }
+]
 
 @app.route('/')
 def home():
