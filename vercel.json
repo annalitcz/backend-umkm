@@ -3,7 +3,16 @@
     "builds": [{ "src": "app.py", "use": "@vercel/python" }],
     "routes": [
       {
+        "src": "/",
+        "dest": "/app.py"
+      },
+      {
         "src": "/api/products",
+        "dest": "/app.py",
+        "methods": ["GET"]
+      },
+      {
+        "src": "/api/products/search",
         "dest": "/app.py",
         "methods": ["GET"]
       },
